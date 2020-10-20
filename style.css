@@ -1,0 +1,35 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+#page-wrapper {
+    padding-top: 20px;
+}
+
+#buttons-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#buttons-container button {
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#video-container {
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    transition: height 1s;
+    height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#video-container iframe {
+    margin: 0 auto;
+}
